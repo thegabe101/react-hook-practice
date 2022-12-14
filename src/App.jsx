@@ -4,7 +4,9 @@ import { StatePractice } from "./components/StatePractice";
 import { StatePracticeTwo } from "./components/StatePracticeTwo";
 import { Reducer } from "./components/UseReducer";
 import { EffectPractice } from "./components/EffectPractice";
-import { UseRef, useRef } from "./components/UseRef";
+import { UseRef } from "./components/UseRef";
+import { UseLayout } from "./components/UseLayout";
+import { ImperativeHandle } from "./components/ImperativeHandle";
 
 function App() {
 	return (
@@ -14,6 +16,8 @@ function App() {
 			<Reducer></Reducer>
 			<EffectPractice></EffectPractice>
 			<UseRef></UseRef>
+			<UseLayout></UseLayout>
+			<ImperativeHandle></ImperativeHandle>
 		</p>
 	);
 }
