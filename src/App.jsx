@@ -3,6 +3,7 @@ import "./App.css";
 import { StatePractice } from "./components/StatePractice";
 import { StatePracticeTwo } from "./components/StatePracticeTwo";
 import { Reducer } from "./components/UseReducer";
+import { EffectPractice } from "./components/EffectPractice";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<StatePractice></StatePractice>
 			<StatePracticeTwo></StatePracticeTwo>
 			<Reducer></Reducer>
+			<EffectPractice></EffectPractice>
 		</p>
 	);
 }
