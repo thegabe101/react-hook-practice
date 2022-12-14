@@ -4,6 +4,7 @@ import { StatePractice } from "./components/StatePractice";
 import { StatePracticeTwo } from "./components/StatePracticeTwo";
 import { Reducer } from "./components/UseReducer";
 import { EffectPractice } from "./components/EffectPractice";
+import { UseRef, useRef } from "./components/UseRef";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<StatePracticeTwo></StatePracticeTwo>
 			<Reducer></Reducer>
 			<EffectPractice></EffectPractice>
+			<UseRef></UseRef>
 		</p>
 	);
 }
