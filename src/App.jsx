@@ -8,6 +8,7 @@ import { UseRef } from "./components/UseRef";
 import { UseLayout } from "./components/UseLayout";
 import { ImperativeHandle } from "./components/ImperativeHandle";
 import ContextPractice from "./components/ContextPractice";
+import MemoPractice from "./components/MemoPractice";
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 			<UseLayout></UseLayout>
 			<ImperativeHandle></ImperativeHandle>
 			<ContextPractice></ContextPractice>
+			<MemoPractice></MemoPractice>
 		</p>
 	);
 }
