@@ -7,6 +7,7 @@ import { EffectPractice } from "./components/EffectPractice";
 import { UseRef } from "./components/UseRef";
 import { UseLayout } from "./components/UseLayout";
 import { ImperativeHandle } from "./components/ImperativeHandle";
+import ContextPractice from "./components/ContextPractice";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 			<UseRef></UseRef>
 			<UseLayout></UseLayout>
 			<ImperativeHandle></ImperativeHandle>
+			<ContextPractice></ContextPractice>
 		</p>
 	);
 }
